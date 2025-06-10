@@ -7,7 +7,7 @@ const Work = () => {
       <div className="container mx-auto relative">
         {/* 주요 기능 타이틀 */}
         <div className="w-full flex justify-start mb-12" style={{ marginTop: '100px', marginLeft: '90px' }}>
-          <h2 className="text-6xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text tracking-tight">주요 기능</h2>
+          <h2 className="text-6xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text tracking-tight" contentEditable="true" style={{ cursor: 'move' }}>주요 기능</h2>
         </div>
         <div className="relative min-h-[1200px]" style={{ top: '-200px', position: 'relative' }}>
           {/* 좌측 하단 자주색 박스 */}
